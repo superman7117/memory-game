@@ -1,0 +1,43 @@
+body{
+  background: dodgerblue;
+}
+.container-fluid {
+  margin-top: 7vw;
+}
+.a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4em;
+  border: 1px solid red;
+}
+.mydiv {
+  background-color: red;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  
+}
+.col-xs-2 {
+  background-color: #333;
+  border: 1px solid red;
+  display: flex;
+  font-size: 5vw;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  height: 11vw;
+}
+span {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+[data-showing*=match]{
+  background-color: red;
+}
+[data-showing*=true]{
+  background-color: dodgerblue;
+}
