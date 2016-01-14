@@ -1,7 +1,6 @@
 'use strict';
 (function() {
   $(document).ready(init);
-
   function init(){
     $('.container-fluid').append(boardBinder);
     $('.col-xs-2').on('click', flipCard);
